@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com -->
+  <title>Bootstrap Theme Company Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+ 
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="#myPage">Sen Tourisme</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about">A Propos</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#portfolio">Déstinations</a></li>
+              <li><a href="#pricing">Réseervations</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div class="jumbotron text-center">
+        <div class="lou" style="margin-top: 13%;">
+          <h1>SEN TOURISME</h1> 
+          <p>Visitez les déstinations de vos rêves</p> 
+          <form>
+            <div class="input-group"> 
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-primary">S'inscrire</button>
+              </div>
+            </div>
+          </form>
+        </div>
+       
+      </div>
+      <section class="sect11">
+        <h1 id="service">A votre Service!</h1>
+        <div class="icon">
+            <div class="icone">
+                <img src="../img/images/bus.jpg" alt="" width="280" height="300">
+                <h2>Bus Climatisé</h2>
+                <p>Passe partout</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/moto.jpg" alt=""width="280" height="300">
+                <h2>Moto Sable</h2>
+                <p>Disponible à LAC ROSE <br> CASAMANCE ET SAINT-LOUIS</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/tra (1).jpg" alt="" width="280" height="300">
+                <h2>Ergonomie</h2>
+                <p>Soucieux de l'expériances <br> utilisateur</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/a (18).jpg" alt="" width="280" height="300">
+                <h2>Passion</h2>
+                <p>beaucoup de coeur à l'ouvrage <br>pour chaques projets</p> 
+            </div>
+        </div>
+      </section>
+      <section class="sect11">
+       
+        <div class="icon">
+            <div class=" icone">
+                <img src="../img/images/co.jpg" alt="Alps" width="280" height="300" >
+                <h2>Framesworks</h2>
+                <p>Bonne expériences avec les <br> frameworks suivants(Bootstrop html <br> css java script)</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/a (13).jpg" alt=""width="280" height="300">
+                <h2>veille Techno</h2>
+                <p>Toujours à l'affut des nouvelles <br> technologies</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/avion.jpg" alt="" width="280" height="300">
+                <h2>Ergonomie</h2>
+                <p>Soucieux de l'expériances <br> utilisateur</p> 
+            </div>
+            <div class="icone">
+                <img src="../img/images/tra (2).jpg" alt="" width="280" height="300">
+                <h2>Passion</h2>
+                <p>beaucoup de coeur à l'ouvrage <br>pour chaques projets</p> 
+            </div>
+        </div>
+      </section>    
+      </section>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
