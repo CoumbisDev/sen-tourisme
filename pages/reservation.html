@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>sentourisme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/style.css">
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: skyblue; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  #contact{
+    margin-right: 3%;
+    margin-top: 30px;
+}
+#contact .contenaire .title h3{
+    padding: 5px;
+    font-size: 2.2em;
+}
+#contact .contenaire .title h6{
+    font-size: 1em;
+}
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">Sen Tourisme</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">A Propos</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#portfolio">Déstinations</a></li>
+        <li><a href="#pricing">Réseervations</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="lou" style="margin-top: 13%;">
+    <h1>RESERVATION</h1> 
+    <p>Visitez les déstinations de vos rêves</p> 
+    <form>
+      <div class="input-group"> 
+        <div class="input-group-btn">
+          <button type="button" class="btn btn-primary">S'inscrire</button>
+        </div>
+      </div>
+    </form>
+  </div>
+ 
+</div>
+
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">RESERVATION</h3>
+  <div id="contact">
+    <div class="contenaire">
+        <div class="title">
+            <h3  style="color: #d6cece;">Faites Vos Reservations</h3>
+        </div>
+        <!-- Container (TOUR Section) -->
+<div id="tour" class="">
+  <div class="container">
+    <h3 class="" style="color: #fffcfc;"> Dates de tourisme</h3>
+    <p class="text-center" >programme de Visite.<br> Réservez vos  tickets!</p>
+    <ul class="list-group">
+      <li class="list-group-item"  style="color: #5f5d5d;">September <span class="label label-danger">Epuisé!</span></li>
+      <li class="list-group-item" style="color: #5f5d5d;">October <span class="label label-danger">Epuisé!</span></li> 
+      <li class="list-group-item" style="color: #5f5d5d;">November <span class="badge">3</span></li> 
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="../img/hotel-luxe-cap-skirring-senegal.jpg" alt="Paris"  style="height: 200px;">
+          <p style="color: #5f5d5d;"><strong>cap Skirring</strong></p>
+          <p style="color: #5f5d5d;">15 au 15 AVRIL 2024</p>
+          <button class="btn bg-1" data-toggle="modal" data-target="#myModal"> <a href="../pages/rese.html">acheter un Tickets</a></button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="../img/arton78733.jpg" alt="New York" style="height: 200px;">
+          <p style="color: #5f5d5d;"><strong>Casamance</strong></p>
+          <p style="color: #5f5d5d;"> 28 Novembre 2024 au 28 Janvier 2025</p>
+          <button class="btn  bg-1" data-toggle="modal" data-target="#myModal">  <a href="../pages/rese.html">acheter un Tickets</a></button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="../img/images.jpg" alt="San Francisco" width="400" height="300">
+          <p style="color: #5f5d5d;"><strong>Saint-Louis</strong></p>
+          <p style="color: #5f5d5d;">Sunday 29 November 2015</p>
+          <button class="btn  bg-1" data-toggle="modal" data-target="#myModal"> <a href="../pages/rese.html">acheter un Tickets</a> </button>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>
