@@ -1,0 +1,50 @@
+img{
+    padding:5%;
+    margin: 5%;
+    border-radius:40px;
+    height: 500px;
+ }
+ h1{
+    text-align: center;
+    font-size: 25px;
+ }
+ h5{
+    text-align: center;
+ }
+article{
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.service h2{
+    text-align: center;
+}
+
+.card-group > div{
+    flex: 1;
+    border-radius: 1;
+    background-position: center;
+    transition: all .8s cubic-bezier(.25,.4, .45, 1.4);
+
+
+}
+.card-group{
+    padding:2%;
+    gap: 2rem;
+  
+
+
+    
+}
+.card-group :hover{
+    transform: scale(0.7s);  
+     margin-left: -8%;
+    height: 20rem;
+    display: flex; 
+    margin-top: -90px;
+}
+
+
+    
+
+
