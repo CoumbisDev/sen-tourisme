@@ -126,7 +126,7 @@ body {
     margin-bottom: 30px;
   }
   h4 {
-    font-size: 19px;
+    font-size: 22px;
     line-height: 1.375em;
     color: #303030;
     font-weight: 400;
@@ -142,8 +142,13 @@ body {
     padding: 100px 25px;
     font-family: Montserrat, sans-serif;
   }
+  .bg-grey p {
+    font-size: 22px;}
   .container-fluid {
     padding: 60px 50px;
+  }
+  .container-fluid p{
+    font-size: 22px;
   }
   .bg-grey {
     background-color: #f6f6f6;
@@ -161,6 +166,9 @@ body {
     border: none;
     border-radius: 0;
   }
+  .thumbnail p{
+    font-size: 17px;
+  }
   .thumbnail img {
    
     
@@ -171,10 +179,10 @@ body {
     color: skyblue;
   }
   .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: rgb(0, 178, 248);
   }
   .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: rgb(7, 185, 255);
   }
   .item h4 {
     font-size: 19px;
@@ -201,7 +209,7 @@ body {
   }
   .panel-heading {
     color: #fff !important;
-    background-color: rgb(10, 174, 239)!important;
+    background-color: rgb(2, 183, 255)!important;
     padding: 25px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
@@ -227,23 +235,21 @@ body {
   .navbar {
     margin-bottom: 0;
     background-color: skyblue;
-    opacity: 0.6;
+    opacity: 0.9;
     z-index: 9999;
-    border: 0;
     font-size: 1em !important;
-   
-   
+    border: 0;
     border-radius: 0;
     font-family: Montserrat, sans-serif;
   }
   .navbar li a, .navbar .navbar-brand {
     color:white !important;
-    font-weight: 900;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: red !important;
+    color: darkblue !important;
   
   }
+
   .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;

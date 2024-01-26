@@ -27,10 +27,11 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">A Propos</a></li>
+        <li><a href="index.html">Accueil</a></li>
         <li><a href="#services">SERVICES</a></li>
-        <li><a href="#portfolio">Déstinations</a></li>
+        <li><a href="#destination">Déstinations</a></li>
         <li><a href="#pricing">Réseervations</a></li>
+        <li><a href="#about">A propos</a></li>
         <li><a href="#contact">CONTACT</a></li>
       </ul>
     </div>
@@ -59,7 +60,7 @@
       <h2>A Propos De Nous</h2><br>
       <h4>Le tourisme au Sénégal s'est imposé comme unu véitable moteur économique, au second rang aprés la pêche. Les arriées massives de touridte de tout type, montrent à quel point cet activité relie découverte et loisir.</h4><br>
       <p>Sen tourisme est une enteprise sénégalaise céée en 2023. Elle examine les tendances. les tehnologies et les pratiques courantes en rapport avec le contexte actuel afin d'offrir aux touristes un cadre attractif, agréable et répondant à leurs attentes</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <br><button class="btn btn-default btn-lg"><a href="#mui"> Get in Touch</a></button>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -67,7 +68,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid bg-grey" id="mui">
   <div class="row">
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -123,7 +124,7 @@
 </div>
 
 <!-- Container (destination Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="destination" class="container-fluid text-center bg-grey">
   <h2>Destination</h2><br>
   <h4>Ou allez-vous?</h4>
   <div class="row text-center slideanim">
@@ -150,6 +151,7 @@
       
       </div>
     </div>
+     <a href="../pages/destination.html">voir les destinations  </a>
   </div><br>
   
   <h2>Que dises nos clients</h2>
@@ -217,9 +219,9 @@
           <h1>Association</h1>
         </div>
         <div class="panel-body">
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
+          <p><strong>25</strong> personnes</p>
+          <p><strong>10</strong> personnes</p>
+          <p><strong>5</strong> personnes</p>
           <p><strong>Endless</strong> Amet</p>
         </div>
         <div class="panel-footer">
@@ -236,9 +238,9 @@
         </div>
         <div class="panel-body">
 
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
+          <p><strong>50</strong> personnes</p>
+          <p><strong>25</strong>personnes</p>
+          <p><strong>10</strong>personnes</p>
           <p><strong>Endless</strong> Amet</p>
         </div>
         <div class="panel-footer">
@@ -259,11 +261,11 @@
        <form class="form-inline">
 
  </form>
- <div class="col-sm-5">
-  <p>Nous sommes disponibles 24/ 24h.</p>
-  <p><span class="glyphicon glyphicon-map-marker"></span> billets Saint-Louis</p>
-  <p><span class="glyphicon glyphicon-phone"></span> +221 78/591/94/67 // 76/418/15/69</p>
-  <p><span class="glyphicon glyphicon-envelope"></span> sentourisme56@gmail.com</p>
+ <div class="col-sm-6">
+  <h5>Nous sommes disponibles 24/ 24h.</h5>
+  <h5><span class="glyphicon glyphicon-map-marker"></span> billets Saint-Louis</h5>
+  <h5><span class="glyphicon glyphicon-phone"></span> +221 78/591/94/67 // 76/418/15/69</h5>
+  <h5><span class="glyphicon glyphicon-envelope"></span> sentourisme56@gmail.com</h5>
 </div>
     </div>
     <div class="col-sm-7 slideanim">
@@ -332,6 +334,20 @@ $(document).ready(function(){
   });
 })
 </script>
+ <style>
+  .btn a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+  }
+  .btn{
+    background-color: skyblue;
+  }
+  h5{
+    font-size: 15px;
+   
+  }
+ </style>
 
 </body>
 </html>
