@@ -132,6 +132,12 @@ body {
     font-weight: 400;
     margin-bottom: 30px;
   }  
+  .jumbotron h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 5.7em;
+  }
+
   .jumbotron {
     background-image: url('../img/images/accu1.jpg');
     background-repeat: no-repeat;
@@ -140,7 +146,7 @@ body {
     background-position: center;
     color: #fff;
     padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
+    
   }
   .bg-grey p {
     font-size: 22px;}
